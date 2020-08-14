@@ -1,0 +1,39 @@
+.Chat-form {
+    width: 600px;
+    display: flex;
+    margin: 0 auto 40px;
+    justify-content: center;
+}
+
+.ChatAddMessage-inputs {
+    background: transparent;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #00897b;
+    box-shadow: 0 2px 2px 1px rgba(0, 137, 123, 0.5);
+    transition: 0.5s;
+}
+
+.ChatAddMessage-author:focus,
+.ChatAddMessage-message:focus {
+    flex-grow: 1;
+}
+
+.ChatAddMessage-send {
+    background: #00897b;
+    border: none;
+    color: #e0f2f1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ChatAddMessage-send:hover {
+    background: #4dd0e1;
+    color: #263238;
+}
